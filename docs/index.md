@@ -1,16 +1,16 @@
 ---
 # https://vitepress.dev/reference/default-theme-home-page
-layout: page
+layout: home
 
 # asdadadsa
 
 hero:
-  name: kokodayo
+  name: HAL
   text: 内容信息
   tagline: 副内容信息
   actions:
     - theme: brand
-      text: 开发文档
+      text: 笔记
       link: /markdown-examples
     - theme: alt
       text: 示例

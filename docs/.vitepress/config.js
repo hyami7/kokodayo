@@ -9,15 +9,13 @@ export default defineConfig({
     lineNumbers: true
   },
   themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: '主页', link: '/' },
-      { text: '开发文档', link: '/markdown-examples' }
+      { text: '笔记', link: '/markdown-examples' }
     ],
 
     sidebar: [
       {
-        text: '开发文档',
+        text: '笔记',
         items: [
           { text: '示例1', link: '/markdown-examples' },
           { text: '示例2', link: '/api-examples' }
