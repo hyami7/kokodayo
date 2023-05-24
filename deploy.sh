@@ -7,7 +7,7 @@ set -e
 rm -rf docs/.vitepress/dist/
 
 # 生成静态文件
-pnpm build
+npm build
 
 # 进入生成的文件夹
 cd docs/.vitepress/dist
