@@ -7,7 +7,7 @@ set -e
 rm -rf docs/.vitepress/dist/
 
 # 生成静态文件
-pnpm build
+pnpm run build
 
 # 进入生成的文件夹
 cd docs/.vitepress/dist
@@ -21,6 +21,6 @@ git commit -m 'deploy'
 
 # 如果发布到 https://<USERNAME>.github.io 修改仓库地址
 # git push -f git@github.com:<hyami7>/<kokodayo>.github.io.git master
-git push -f git@github.com:<hyami7>/<hal>.git master:gh-pages
+git push -f git@github.com:hyami7/hal.git master
 
 cd -
