@@ -2,8 +2,8 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "kokodayo",
-  base: '/kokodayo/',
+  title: "HAL",
+  base: '/hal/',
   description: "个人博客",
   markdown: {
     lineNumbers: true
